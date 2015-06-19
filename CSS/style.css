@@ -16,3 +16,7 @@ h1 {
 	font-style: italic;
 	color: ;
 }
+
+ul {
+	list-style-type: none;
+}
