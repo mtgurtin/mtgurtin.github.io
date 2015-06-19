@@ -1,22 +1,26 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
 	background-color: #000;
 	color: white;
 	font-family: helvetica, arial, sans-serif;
-	text-align: center 
+	text-align: center;
 }
-
+header {}
+nav {}
+section {
+	border:2px solid #fff;
+	padding:5em 0 5em 0;
+}
 h1 {
 	color: ;
-	font-family: 
-	font-weight: 
-	;
-
-}
-#slogan {
-	font-style: italic;
-	color: ;
+	font-family: ;
+	font-weight: ;
 }
 
 ul {
 	list-style-type: none;
+}
+#slogan {
+	font-style: italic;
+	color: ;
 }
