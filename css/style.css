@@ -1,7 +1,7 @@
-* { margin:0; padding:0; box-sizing:border-box; }
+* { margin:0; padding:5; box-sizing:border-box; }
 header {
 	font-family: 'Pinyon Script', cursive;
-	font-weight: 1.5em;
+	
 }
 
 body {
@@ -19,14 +19,16 @@ section {
 h1 {
 	color: ;
 	font-family:'Pinyon Script', cursive;;
-	font-weight:;
+	font-size: 62px;
 }
 
 ul {
 	list-style-type: none;
 	font-family:helvetica, arial, sans-serif;
+	font-size: 1em;
 }
 #slogan {
-	font-family: 'Oswald', sans-serif;
-	color: ;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 1.5em;
+	color:;
 }
