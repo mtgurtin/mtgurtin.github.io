@@ -21,6 +21,10 @@ ul {
 li {
 	float:left;
 }
+#Cards img {
+	float:left;
+	width:33.33%;
+}
 #slogan {
 	font-size: 1.5em;
 	color:;
