@@ -1,34 +1,34 @@
-* { margin:0; padding:5; box-sizing:border-box; }
-header {
-	font-family: 'Pinyon Script', cursive;
-	
-}
-
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
 	background-color: #000;
 	color: white;
 	font-family: helvetica, arial, sans-serif;
+	font-size:16px;
 	text-align: center;
 }
-
-nav {}
 section {
 	border:2px solid #fff;
 	padding:5em 0 5em 0;
 }
 h1 {
-	color: ;
-	font-family:'Pinyon Script', cursive;;
-	font-size: 62px;
+	font-family:'Pinyon Script', cursive;
+	font-size: 8em;
 }
 
 ul {
 	list-style-type: none;
-	font-family:helvetica, arial, sans-serif;
-	font-size: 1em;
+}
+li {
+	float:left;
 }
 #slogan {
-	font-family: helvetic, arial, sans-serif;
 	font-size: 1.5em;
 	color:;
+}
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
 }
