@@ -1,41 +1,75 @@
+
 body { 
 	padding: 0,.2em;
 	background-color: #B2BEB5;
 	color: ;
 	font-family: ;
-	font-size: ;
+	font-size: 18px;
 	text-align: ;
 }
+
 header {
-	font-family:; 
-	font-size:;
+	font-family:Arial; sans-serif; 
+	font-size:2em;
+	font-weight: 400;
+	text-align: center;
 	background-color: #ACE5EE;
+	margin: 1em;
+	padding: 2em;
 }
 nav {
 	background-color: #CC5500;
-	font-size: 28px;
+	font-size: 20px;
 	font-family: Arial; sans-serif; 
-	padding:10px;
-
+	float: right;
+	margin: 1em;
+	padding:.2em;
 }
+a{
+	background-color: #ff7900;
+	color:white;
+	text-decoration: none;
+	display: block;
+	float:right;
+	padding: 20px;
+}
+section {
+	background:#ffffff;
+	width:200px;
+	padding: 20px 0;
+	margin: 30px;
+	display: block;
+	float: left;
+	font-family: Arial; sans-serif;
+	text-align: center;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content:" ";
+	clear: both;
+	height:0;
+	font-size: 0;
+}
+
 aside {
-	margin: 4em;
-	padding:0,.2em;
+	margin: 2em;
+	padding: 2em;
+	text-align: right;
 	background-color: #FAF0BE;
 	font-family: Arial; italic; sans-serif;
-	font-size: 16px;
+	font-size: 14px;
+	display: block;
+	float: right;
+
 }
 footer {
-	background-color: ;
+	background-color: #CC5500;
 	font-style: ;
-	font-family: ;
-	font-family: ;
-	padding: ;
+	font-family: Arial; sans-serif;
+	font-size: 10px;
+	text-align: left;
+	padding:10px;
+	float:center;
 }
-
-
-margin
-border
-padding
-float: 
-clearfix
