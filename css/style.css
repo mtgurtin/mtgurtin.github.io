@@ -1,8 +1,8 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
-	background-color: #000;
-	color: white;
-	font-family: helvetica, arial, sans-serif;
+	background-color: #F0FFFF;
+	color: black;
+	font-family: futura, arial, sans-serif;
 	font-size:16px;
 	text-align: center;
 }
@@ -19,7 +19,7 @@ ul {
 	list-style-type: none;
 }
 li {
-	float:left;
+	float:right;
 }
 #Cards img {
 	float:left;
