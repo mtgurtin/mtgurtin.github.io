@@ -49,25 +49,21 @@ span {
 	color: #FF1654;
 }
 
-}
 nav {
 	text-align: center;
-	float: left;
+	float: right;
 	margin: 1em;
 	padding:.2em;
 	border: solid 1px black;
-	width: 620px;
+	width: 25%;
 }
 
 nav a {
 	background-color:#09A8F7;
 	font-family: Futura, Arial, sans-serif; 
 	font-size: 1em;
-	float: left;
-	
-	
-	
-
+	display: block;
+	text-align: center;
 }
 
 ul {
@@ -94,6 +90,11 @@ a{
 
 #cards img {
 	display: block;
+	width: 100%;
+	
+}
+
+#cards div {
 	background-color:#F0F8FF;
 	width: 29.333%;
 	padding: 2%;
@@ -120,6 +121,11 @@ a{
 	clear: both;
 }
 
+.mainbody {
+	width: 70%;
+	float: left;
+
+}
 footer {
 	font-size: 40px;
 	background-color: #09A8F7;
