@@ -16,10 +16,10 @@ body {
 	background-image: url("../images/river_banner.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
-	background-color: #F0FFFF;
+	background-color: #fff;
 	color: black;
 	font-family: futura, arial, sans-serif;
-	font-size:16px;
+	font-size:13px;
 	text-align: center;
 	padding:0, .2em;
 
@@ -35,12 +35,21 @@ h1 {
 }
 
 h2 {
-	
+	font-size: 1.5em;
+	font-weight: normal;
+	margin-top: 2em;
+}
+h4 {
+	font-size: .7em;
+	text-align: left;
+	padding: 0 .5em; 
+	margin: .5em;
 }
 
 section {
-	/* border:2px solid #fff; */
-	padding: 2em;
+	/*border:2px solid #fff;*/
+	padding: 1%;
+	margin:;
 
 	
 }
@@ -53,17 +62,19 @@ nav {
 	text-align: center;
 	float: right;
 	margin: 1em;
-	padding:.2em;
+	padding: 1em;
 	border: solid 1px black;
 	width: 25%;
 }
 
 nav a {
-	background-color:#09A8F7;
+	background-color:#ECF0F1;
 	font-family: Futura, Arial, sans-serif; 
 	font-size: 1em;
 	display: block;
 	text-align: center;
+	margin: 1em;
+	padding: 1em;
 }
 
 ul {
@@ -95,7 +106,7 @@ a{
 }
 
 #cards div {
-	background-color:#F0F8FF;
+	background-color:#ECF0F1;
 	width: 29.333%;
 	padding: 2%;
 	margin: 2%;
@@ -103,14 +114,15 @@ a{
 	float:left;
 }
 #logo img {
-	width:30%;
+	width:28%;
 	padding: .5%;
-	margin: 2%;
+	margin: 1%;
 	background-color: #736F72;
 }
 #slogan {
 	color: #09A8F7;
 	font-size: 2em;
+
 }
 
 .clearfix:after { 
@@ -124,6 +136,7 @@ a{
 .mainbody {
 	width: 70%;
 	float: left;
+	background-color: #fff;
 
 }
 footer {
